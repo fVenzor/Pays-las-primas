@@ -30,30 +30,42 @@
         {
             this.lbltext1 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lbltext1
             // 
             this.lbltext1.AutoSize = true;
-            this.lbltext1.Location = new System.Drawing.Point(224, 63);
+            this.lbltext1.Font = new System.Drawing.Font("Elephant", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbltext1.Location = new System.Drawing.Point(71, 44);
             this.lbltext1.Name = "lbltext1";
-            this.lbltext1.Size = new System.Drawing.Size(0, 13);
+            this.lbltext1.Size = new System.Drawing.Size(0, 17);
             this.lbltext1.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(125, 160);
+            this.label1.Location = new System.Drawing.Point(71, 77);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(53, 13);
             this.label1.TabIndex = 1;
             this.label1.Text = "Vendedor";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(71, 13);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(92, 13);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Datos de Usuario:\r\n";
             // 
             // Vendedor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lbltext1);
             this.Name = "Vendedor";
@@ -67,5 +79,6 @@
 
         private System.Windows.Forms.Label lbltext1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
