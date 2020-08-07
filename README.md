@@ -11,3 +11,7 @@ Solucion:
 App para registrar en una base de datos a los nuevos clientes, y que los demás vendedores y administradores puedan consultar. Tambien para consultar las ventas.
 
 INDICE:
+REQUERIMIENTOS:
+Servidores: https://github.com/fVenzor/Pays-las-primas.wiki.git
+Paquetes adicionales: https://github.com/fVenzor/Pays-las-primas.wiki.git
+
