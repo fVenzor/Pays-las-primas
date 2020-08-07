@@ -12,6 +12,7 @@ App para registrar en una base de datos a los nuevos clientes, y que los demás 
 
 INDICE:
 REQUERIMIENTOS:
-Servidores: https://github.com/fVenzor/Pays-las-primas.wiki.git
-Paquetes adicionales: https://github.com/fVenzor/Pays-las-primas.wiki.git
+Servidores: https://github.com/fVenzor/Pays-las-primas/wiki#servidores-de-aplicaci%C3%B3n-web_;
+
+Paquetes adicionales:https://github.com/fVenzor/Pays-las-primas/wiki/Paquetes-adicionales#paquetes-adicionales
 
