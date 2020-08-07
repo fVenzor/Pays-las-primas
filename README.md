@@ -18,3 +18,19 @@ Servidores: https://github.com/fVenzor/Pays-las-primas/wiki#servidores-de-aplica
 
 Paquetes adicionales:https://github.com/fVenzor/Pays-las-primas/wiki/Paquetes-adicionales#paquetes-adicionales
 
+Version de Java: https://github.com/fVenzor/Pays-las-primas/wiki/Versi%C3%B3n-de-Java#versi%C3%B3n-de-java
+
+INSTALACIÓN:
+
+¿Cómo instalar el ambiente de desarrollo?: https://github.com/fVenzor/Pays-las-primas/wiki/Instalar-el-ambiente-de-desarrollo#instalaciones
+
+¿Cómo ejecutar pruebas manuales?:https://github.com/fVenzor/Pays-las-primas/wiki/Pruebas-manuales#c%C3%B3mo-ejecutar-pruebas-manuales
+
+¿Cómo implementar la solución en producción en un ambiente local?:
+
+CONFIGURACION:
+
+Configuración del producto (archivos de configuración).
+
+Configuración de los requerimientos.
+
