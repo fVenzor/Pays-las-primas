@@ -26,7 +26,7 @@ INSTALACIÓN:
 
 ¿Cómo ejecutar pruebas manuales?:https://github.com/fVenzor/Pays-las-primas/wiki/Pruebas-manuales#c%C3%B3mo-ejecutar-pruebas-manuales
 
-¿Cómo implementar la solución en producción en un ambiente local?:
+
 
 CONFIGURACION:
 
@@ -43,6 +43,8 @@ CONTRIBUCIÓN:
 
 Guia de contribución para usuarios:https://github.com/fVenzor/Pays-las-primas/wiki/Guia-de-contribuci%C3%B3n-para-usuarios#fabian-vezor-arias
 
-Pasos específicos para clonar repositorio:
+Pasos específicos para clonar repositorio:https://github.com/fVenzor/Pays-las-primas/wiki/Gu%C3%ADa-de-trabajo#como-trabajar-una-issue
 
+ROADMAP
 
+Requrmientos a implementar en el futuro: https://github.com/fVenzor/Pays-las-primas/wiki/Requerimientos-futuros#requerimientos-futuros
