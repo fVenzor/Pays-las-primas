@@ -30,7 +30,19 @@ INSTALACIÓN:
 
 CONFIGURACION:
 
-Configuración del producto (archivos de configuración).
+Configuración del producto (archivos de configuración).https://github.com/fVenzor/Pays-las-primas/wiki/Configuracio#archivos-de-configuraci%C3%B3n-del-producto
 
-Configuración de los requerimientos.
+Configuración de los requerimientos.https://github.com/fVenzor/Pays-las-primas/wiki/Configuraci%C3%B3n-de-los-requerimientos#configuraci%C3%B3n-de-los-requerimientos
+
+USO:
+Manual de usuario final: https://github.com/fVenzor/Pays-las-primas/wiki/Uso-de-la-App#manual-de-usuario
+
+Referencias para Administrador:https://github.com/fVenzor/Pays-las-primas/wiki/Referencias-del-administrador#manual-para-el-administrador
+
+CONTRIBUCIÓN:
+
+Guia de contribución para usuarios:https://github.com/fVenzor/Pays-las-primas/wiki/Guia-de-contribuci%C3%B3n-para-usuarios#fabian-vezor-arias
+
+Pasos específicos para clonar repositorio:
+
 
