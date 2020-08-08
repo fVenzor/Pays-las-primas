@@ -17,44 +17,60 @@ namespace Pays_las_primas
         public Form1()
         {
             InitializeComponent();
-            SqlConnection con = new SqlConnection(@ "Data Source = (LocalDb)\vll.0;initial Catalog= usuarios;Integrated Security=True");
+        }
+        SqlConnection con = new SqlConnection(@"Data Source= (localdb)\MSSQLLocalDB; Initial Catalog=usuarios; Integrated Security=True");
 
-            void logear(string usuario, string contraseña)
+        public void logear(string usuario, string contraseña)
+        {
+            try
             {
-                try
-                {
-                    con.Open();
-                    SqlCommand cmd = new SqlCommand("SELECT Nombre,Tipo_usuario from usuarios WHERE usuario=@usuario ADN Password= @pass", con);
-                    cmd.Parameters.AddWithValue("usuario", usuario);
-                    cmd.Parameters.AddWithValue("pass", contraseña);
-                    SqlDataAdapter sda = new SqlDataAdapter(cdm);
-                    DataTable dt = new DataTable();
-                    sda.Fill(dt);
+                con.Open();
+                SqlCommand cmd = new SqlCommand("SELECT Nombre,Tipo_usuario from usuarios WHERE Usuario=@usuario AND Password= @pass", con);
+                cmd.Parameters.AddWithValue("usuario", usuario);
+                cmd.Parameters.AddWithValue("pass", contraseña);
+                SqlDataAdapter sda = new SqlDataAdapter(cmd);
+                DataTable dt = new DataTable();
+                sda.Fill(dt);
 
-                    if (dt.Rows.Count==1)
+                if (dt.Rows.Count == 1)
+                {
+                    this.Hide();
+                    if (dt.Rows[0][1].ToString() == "Administrador")
                     {
+                        new Administrador(dt.Rows[0][0].ToString()).Show();
 
                     }
-                    else
+                    else if (dt.Rows[0][1].ToString() == "Vendedor")
                     {
-                        MessageBox.Show()
-                    }
+                        new Vendedor(dt.Rows[0][0].ToString()).Show();
 
-                }catch(Exception e)
-                {
-                    MessageBox.Show(e.Message)
+                    }
                 }
-                finally
+                else
                 {
-
+                    MessageBox.Show("Usuario y/o contraseña incorrecto");
                 }
 
             }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message);
+            }
+            finally
+            {
+                con.Close();
+            }
+
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void button1_Click_1(object sender, EventArgs e)
         {
-
+            logear(this.textBox3.Text, this.textBox2.Text);
         }
     }
+
+   
+
+    
 }
+
